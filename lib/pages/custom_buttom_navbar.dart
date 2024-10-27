@@ -51,8 +51,8 @@ class _CustomButtomNavbarState extends State<CustomButtomNavbar> {
         ),
       ),
 
-      bottomNavigationBar: size.width>=800?
-      null
+      bottomNavigationBar: size.width>=800
+      ? null
       :NavigationBar(
         onDestinationSelected: (int index) {
           setState(() {

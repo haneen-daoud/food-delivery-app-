@@ -6,8 +6,8 @@ import 'package:food_delivery_app/utils/app_color.dart';
 import 'package:food_delivery_app/widgets/counter_widget.dart';
 import 'package:food_delivery_app/widgets/product_specs_item.dart';
 
-class ProductDetailsPage extends StatefulWidget {
-  const ProductDetailsPage({
+class ProductDetailsPage extends StatefulWidget {  
+  const ProductDetailsPage({ 
     super.key,
   });
 
